@@ -54,7 +54,7 @@ Folder structure
 
 STL_Optimizer/
 │
-├── .venv/
+├── .venv/                    # Generated locally; not included in repository
 │   Python virtual environment.
 │
 ├── src/
@@ -178,7 +178,8 @@ Notes
   exact repaired-mesh properties are available, and as fallback otherwise.
 - Each STL is processed in an isolated operating-system process. A failure or
   timeout in one file does not stop the rest of the batch.
-- The Python virtual environment (.venv) must remain in the project root.
+- The Python virtual environment (.venv) is created locally by 
+  INSTALL_DEPENDENCIES.bat and is not distributed with the repository.
 - The "__pycache__" folders are automatically generated and should not be
   distributed.
 - On Windows, Open3D cannot load STL files whose path contains accented or
