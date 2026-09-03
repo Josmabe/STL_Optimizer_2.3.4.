@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# =========================================================
+# STL Optimizer
+# =========================================================
+
+# Generated results
+Results/*
+!Results/.gitkeep
+
+# User input STL files
+Optimizable Mesh/*
+!Optimizable Mesh/.gitkeep
+
+# Windows files
+Thumbs.db
+desktop.ini
+
+# Visual Studio Code
+.vscode/
