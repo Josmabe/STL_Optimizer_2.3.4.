@@ -312,11 +312,11 @@ See the documentation for additional version history.
 
 ## Author
 
-**José María Beltrán Díaz**
+**Jose María Beltrán Díaz**
 
 Developed as part of the Master's Thesis:
 
-**Modeling and Simulation of a Hexapod Robot**
+**Modelado y simulación de un robot hexápodo**
 
 ---
 
